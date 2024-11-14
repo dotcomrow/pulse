@@ -13,11 +13,11 @@ import NotificationDialog from "@component/modals/notification/NotificationDialo
 export const runtime = 'edge';
 
 export const metadata: Metadata = {
-  title: "SnapSpot",
-  description: "SnapSpot lets you request a picture of any location in the world.",
+  title: "Pulse",
+  description: "Pulse is an app tracks configurable news and information sources.",
   generator: "Next.js",
   manifest: "/manifest.json",
-  keywords: ["nextjs", "next14", "pwa", "next-pwa"],
+  keywords: ["nextjs", "next15", "pwa", "next-pwa"],
   authors: [
     {
       name: "DotcomRow",
@@ -76,7 +76,7 @@ export default async function RootLayout({
           <NotificationDialog />
         </Providers>
       </body>
-      <GoogleAnalytics gaId="G-8MHBD6Z0FG" />
+      <GoogleAnalytics gaId="G-Q84P9PD8MP" />
       <Script
         dangerouslySetInnerHTML={{
           __html: `
