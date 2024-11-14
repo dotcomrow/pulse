@@ -5,16 +5,13 @@ import {
     Navbar,
     NavbarBrand,
     NavbarContent,
-    NavbarItem,
-    NavbarMenuToggle,
-    NavbarMenu,
-    NavbarMenuItem
+    NavbarItem
 } from "@nextui-org/navbar";
 import Link from "next/link";
 import { usePathname } from 'next/navigation'
-import React, { useEffect } from "react";
+import React from "react";
 import { default as Constants } from "@utils/constants";
-import { Button, ButtonGroup } from "@nextui-org/button";
+import { Button } from "@nextui-org/button";
 import { Image } from "@nextui-org/image";
 
 export default async function Header({ token }: { token: string }) {
@@ -32,7 +29,7 @@ export default async function Header({ token }: { token: string }) {
                 className="lg:flex max-lg:hidden"
             >
                 <NavbarBrand>
-                    <h1 className="text-2xl font-bold">SnapSpot</h1>
+                    <h1 className="text-2xl font-bold">Pulse</h1>
                 </NavbarBrand>
                 <NavbarContent className="gap-4" justify="center">
                     {Constants.navLinks.map((item, index) => {

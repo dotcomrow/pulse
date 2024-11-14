@@ -1,9 +1,7 @@
 import MapCard from "@component/map/cards/MapCard";
-import { Card, CardHeader, CardBody, CardFooter } from "@nextui-org/card";
-import { headers, cookies } from 'next/headers'
-import LogUtility from "@utils/LoggingUtility";
+import { Card, CardHeader, CardBody } from "@nextui-org/card";
+import { cookies } from 'next/headers'
 import ActivityNearYouCard from "@component/map/cards/ActivityNearYouCard";
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem } from "@nextui-org/navbar";
 
 export const runtime = 'edge';
 
